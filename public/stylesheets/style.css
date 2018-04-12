@@ -5760,3 +5760,9 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   display: table-cell;
   vertical-align: middle;
 }
+.highlights-container{
+  background : linear-gradient(150deg, #4b7cc6, #1a3c6e);
+}
+.light-headings-text{
+  color : #fff;
+}
