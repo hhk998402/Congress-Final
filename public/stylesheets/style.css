@@ -2311,6 +2311,16 @@ figcaption {
   padding-bottom: 7%;
   background-color: #fff;
 }
+.aboutus-section{
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  margin: auto;
+  position: relative;
+  background: #ddd;
+  padding-top: 7%;
+  padding-bottom: 10%;
+  background : linear-gradient(to bottom right, #4b7cc6, #1a3c6e,#1b1b1b, #1b1b1b);
+}
 
 .content-section.midnight-blue {
   background-color: #fff;
@@ -4384,39 +4394,6 @@ figcaption {
   justify-content: center;
 }
 
-.call-to-action-box {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.call-to-action-box.left {
-  position: relative;
-  padding-top: 118px;
-  padding-bottom: 118px;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/573659a0eea54c982f2a9d37_photo-1445359179985-460648949e10.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #707d8f;
-  text-align: center;
-}
-
-.call-to-action-box.right {
-  position: relative;
-  padding-top: 118px;
-  padding-bottom: 118px;
-  -webkit-align-self: stretch;
-  -ms-flex-item-align: stretch;
-  align-self: stretch;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5740a7987627944126928a29_yJl7OB3sSpOdEIpHhZhd_DSC_1929_1.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #707d8f;
-}
-
 .overlay {
   position: absolute;
   left: 0px;
@@ -4425,62 +4402,6 @@ figcaption {
   bottom: 0px;
   background-image: -webkit-linear-gradient(270deg, rgba(37, 41, 77, .95), rgba(37, 41, 77, .95));
   background-image: linear-gradient(180deg, rgba(37, 41, 77, .95), rgba(37, 41, 77, .95));
-}
-
-.small-social-icon {
-  width: 35px;
-  height: 35px;
-  margin-right: 10px;
-  border-radius: 50%;
-  background-color: rgba(89, 105, 126, .7);
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5729208e34a59a3119baf988_Facebook.icon.png");
-  background-position: 50% 50%;
-  background-size: 31px;
-  background-repeat: no-repeat;
-  -webkit-transition: -webkit-transform 300ms ease;
-  transition: -webkit-transform 300ms ease;
-  transition: transform 300ms ease;
-  transition: transform 300ms ease, -webkit-transform 300ms ease;
-}
-
-.small-social-icon:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.small-social-icon.twitter {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5729208e34a59a3119baf98a_Twitter%20(1).png");
-  background-size: 31px;
-}
-
-.small-social-icon.link {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5729208e34a59a3119baf989_Link.png");
-  background-size: 31px;
-}
-
-.small-social-icon.pinterest {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/573112025c7f553a69810a49_Pinterest.png");
-  background-size: 31px;
-}
-
-.small-social-icon.linkedin {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5729208f989457a16b41bfc5_Linkedin%20(1).png");
-  background-size: 31px;
-}
-
-.small-social-icon.google-plus {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5729208fba23589c6ba9854f_Google-plus.png");
-  background-size: 31px;
-}
-
-.small-social-icon.email {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/57438e3915d374a826175abd_Sobre.png");
-  background-size: 31px;
-}
-
-.small-social-icons-container {
-  margin-bottom: 40px;
 }
 
 .link-block {
@@ -4504,54 +4425,6 @@ figcaption {
 
 .learn-more:hover {
   color: #1488cc;
-}
-
-.speaker-thumbnail {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 300px;
-  margin-bottom: 20px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 5px;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/573659a0eea54c982f2a9d37_photo-1445359179985-460648949e10.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.speaker-dual-tone-overlay {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  border-radius: 5px;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/573100a5eb7cc60c4053cef4_Man-5.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-transition: opacity 300ms ease;
-  transition: opacity 300ms ease;
-}
-
-.speaker-dual-tone-overlay:hover {
-  opacity: 0;
-}
-
-.speaker-header {
-  position: relative;
-  z-index: 10;
-  text-align: center;
 }
 
 .heading-3.hover {
@@ -5455,6 +5328,10 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
     padding-top: 9%;
     padding-bottom: 9%;
   }
+  .aboutus-section{
+    padding-top: 9%;
+    padding-bottom: 9%;
+  }
   .cursive-text {
     font-size: 4.4vw;
   }
@@ -5742,12 +5619,10 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   font-stretch: normal;
   line-height: 1.09;
   letter-spacing: 0.6px;
-  color:#000;
+  color:#fff;
 }
 
-.aboutus-text{
-  height: 40px;
-  width: 250px;
+.aboutus-heading{
   font-family: Montserrat;
   font-size: 40px;
   font-weight: bold;
@@ -5755,8 +5630,18 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   font-stretch: normal;
   line-height: 1.09;
   letter-spacing: 0.6px;
-  color:#000;
-  text-align:center;
-  display: table-cell;
-  vertical-align: middle;
+  color:#fff;
+  text-align:left;
+}
+
+.aboutus-text{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.6px;
+  color:#fff;
+  text-align:left;
 }
