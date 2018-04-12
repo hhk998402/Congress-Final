@@ -1873,7 +1873,10 @@ textarea.w-select {
 
 .w-nav-menu {
   position: relative;
-  float: right
+  float:right;
+  width:100%;
+  text-align:right;
+  align-content: right;
 }
 
 .w--nav-menu-open {
@@ -1885,7 +1888,7 @@ textarea.w-select {
   background: #C8C8C8;
   text-align: center;
   overflow: visible;
-  min-width: 200px
+  min-width: 200px;
 }
 
 .w--nav-link-open {
@@ -2191,7 +2194,6 @@ figcaption {
   font-weight: 800;
   letter-spacing: 1.5px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .nav-link.register {
@@ -2249,7 +2251,7 @@ figcaption {
 .nav-menu {
   display: inline-block;
   width: 80%;
-  float: none;
+  float: right;
 }
 
 .hero-section-1 {
@@ -2257,11 +2259,10 @@ figcaption {
   display: block;
   width: 100%;
   height: 100%;
-  padding-top: 9%;
-  padding-bottom: 11%;
-  background-image: url("../images/blueCover_1.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
+
+  background-image: url("../images/layer-8@3x.png");
+  background-position: right;
+  background-size: 739px;
   background-repeat: no-repeat;
 }
 
@@ -2300,7 +2301,7 @@ figcaption {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  text-align: right;
+  text-align: center;
   color: #545454;
 }
 
@@ -2308,36 +2309,28 @@ figcaption {
   position: relative;
   padding-top: 7%;
   padding-bottom: 7%;
-  background-color: #2c305e;
+  background-color: #fff;
 }
 
 .content-section.midnight-blue {
-  background-color: #292d53;
+  background-color: #fff;
 }
 
 .content-section.dark-slate-blue-2 {
-  background-color: #292d57;
+  background-color: #fff;
 }
 
 .content-section.midnight-blue-2 {
-  background-color: #292d53;
+  background-color: #fff;
 }
 
 .content-section.midnight-blue-3 {
-  background-color: #282c58;
-}
-
-.content-section._404 {
-  height: 100vh;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/572b9b17a930e61c791255bd_Audience.png");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 .hero-text {
   position: relative;
-  text-align: center;
+  text-align: justify;
 }
 
 .underline {
@@ -2390,28 +2383,6 @@ figcaption {
 
 .light-box-link-image.hide {
   display: none;
-}
-
-.mini-play-button {
-  width: 25px;
-  height: 25px;
-  margin-right: 13px;
-  border-radius: 50%;
-  background-color: #fff;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5727e94d639cfa231e7b684a_Mini-play-button.png");
-  background-position: 54% 50%;
-  background-size: 7px;
-  background-repeat: no-repeat;
-  -webkit-transition: -webkit-transform 200ms ease;
-  transition: -webkit-transform 200ms ease;
-  transition: transform 200ms ease;
-  transition: transform 200ms ease, -webkit-transform 200ms ease;
-}
-
-.mini-play-button:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 .scroll-down-arrow {
@@ -2586,45 +2557,6 @@ figcaption {
   align-self: center;
 }
 
-.column-image._1 {
-  min-height: 305px;
-  margin-right: 16px;
-  margin-bottom: 16px;
-  border: 11px solid #fff;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5728a785989457a16b4024f8_iStock_000083671595_Double.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.column-image._2 {
-  min-height: 205px;
-  margin-right: 16px;
-  border: 11px solid #fff;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5728a785989457a16b4024f9_iStock_000083449715_Double.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
-.column-image._3 {
-  min-height: 205px;
-  margin-bottom: 16px;
-  border: 11px solid #fff;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5728a78534a59a3119b928a1_iStock_000083670669_Double.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.column-image._4 {
-  min-height: 305px;
-  border: 11px solid #fff;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5728d085b910208830644d05_Girl%20(1).jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .grid-container {
   width: 57%;
   height: 80%;
@@ -2685,25 +2617,6 @@ figcaption {
   background-color: #272b58;
 }
 
-.play-button {
-  position: static;
-  width: 100px;
-  height: 100px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 50%;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/57320dd972f86c4f0ddd4bbe_Play-triangle.png"), url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/57320dcf6da5fda51325b957_Play.png");
-  background-position: 50% 50%, 50% 50%;
-  background-size: 80px, 80px;
-  background-repeat: no-repeat, no-repeat;
-  -webkit-transition: -webkit-transform 300ms ease;
-  transition: -webkit-transform 300ms ease;
-  transition: transform 300ms ease;
-  transition: transform 300ms ease, -webkit-transform 300ms ease;
-}
-
 .play-button:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -2754,90 +2667,10 @@ figcaption {
   margin-top: 10px;
 }
 
-.speaker {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: auto;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  background-color: #2e3261;
-}
-
-.speaker-picture {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  float: left;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/572e3b51755df9fe38a3007f_Men-1.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-transition: opacity 300ms ease;
-  transition: opacity 300ms ease;
-  text-align: center;
-}
-
-.speaker-picture:hover {
-  opacity: 0;
-}
-
-.speaker-picture._1 {
-  padding-top: 22%;
-  float: left;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/572e3b51755df9fe38a3007f_Men-1.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.speaker-picture._3 {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/572e3b516c59dd073995ef97_Men-3.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.speaker-picture._2 {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5730b4e98f0d48512a85febe_Men-2.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.speaker-picture._4 {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/573100a55c7f553a6980e9b1_Man-4.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.speaker-picture._5 {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/573100a5eb7cc60c4053cef4_Man-5.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.speaker-picture._6 {
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/573100a55c7f553a6980e9af_Man.6.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .subtitle {
   margin-bottom: 20px;
   font-family: Georgia, Times, 'Times New Roman', serif;
-  color: #707d8f;
+  color: #fff;
   font-size: 18px;
   line-height: 24px;
   font-style: italic;
@@ -2845,35 +2678,6 @@ figcaption {
 
 .subtitle.white {
   color: #fff;
-}
-
-.plus-sign-box {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: 100;
-  width: 110px;
-  height: 120px;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5728fe92ba23589c6ba92cdb_Corner.png");
-  background-position: 50% 50%;
-  cursor: pointer;
-}
-
-.plus-sign-horizontal-line {
-  position: relative;
-  left: -9px;
-  top: -11px;
-  bottom: 0px;
-  width: 20px;
-  height: 2px;
-  background-color: #fff;
-}
-
-.plus-sign {
-  position: absolute;
-  top: 25px;
-  right: 14px;
-  display: inline-block;
 }
 
 .speaker-description-box {
@@ -2976,7 +2780,7 @@ figcaption {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   font-family: Raleway, sans-serif;
-  color: #707d8f;
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   text-align: center;
@@ -3018,7 +2822,7 @@ figcaption {
   display: inline-block;
   margin-right: 5px;
   font-family: Montserrat, sans-serif;
-  color: #707d8f;
+  color: #fff;
   font-size: 10px;
   line-height: 18px;
   font-weight: 700;
@@ -3053,88 +2857,6 @@ figcaption {
 
 .button-special-box {
   text-align: center;
-}
-
-.ticket-box {
-  width: 31%;
-  margin-bottom: 20px;
-  float: none;
-}
-
-.pricing-box {
-  position: relative;
-}
-
-.price {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 175px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/5727dc32633f61b87d0d50eb_City-2.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-.ticket-details {
-  padding: 5px 15px 15px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  background-color: #fff;
-}
-
-.ticket-price {
-  display: inline-block;
-  font-family: Montserrat, sans-serif;
-  color: #fff;
-  font-size: 65px;
-  line-height: 81px;
-  font-weight: 700;
-}
-
-.ticket-details-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 15px 5px 5px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  border-bottom: 1px solid #e1e3e6;
-}
-
-.ticket-details-item.no-bottom-border {
-  border-bottom-style: none;
-}
-
-.ticket-details-text-box {
-  display: block;
-  width: 86%;
-  float: left;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
 .check-mark-icon {
@@ -3365,24 +3087,6 @@ figcaption {
   text-align: center;
 }
 
-.see-more-icon {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: rgba(89, 105, 126, .7);
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/572a7d6e975b63a43dbb48a8_Plus-sign%20(1).png");
-  background-position: 50% 50%;
-  background-size: 63px;
-  background-repeat: no-repeat;
-  -webkit-transition: background-color 300ms ease;
-  transition: background-color 300ms ease;
-}
-
-.see-more-icon:hover {
-  background-color: rgba(89, 105, 126, .95);
-}
-
 .venue-details {
   position: relative;
   width: 50%;
@@ -3393,7 +3097,7 @@ figcaption {
 }
 
 .venue-details.midnight-blue-3 {
-  background-color: #2a2e59;
+  background-color: #fff;
 }
 
 .venue {
@@ -3556,7 +3260,7 @@ figcaption {
   margin-bottom: 10px;
   padding-left: 5px;
   font-family: Montserrat, sans-serif;
-  color: #707d8f;
+  color: #fff;
   font-size: 10px;
   letter-spacing: 3.5px;
   text-transform: uppercase;
@@ -3652,7 +3356,7 @@ figcaption {
 }
 
 .credits {
-  background-color: #25284a;
+  background-color: #fff;
 }
 
 .credits-container {
@@ -3764,7 +3468,7 @@ figcaption {
 .body {
   background-color: #fff;
   font-family: Muli, sans-serif;
-  color: #707d8f;
+  color: #fff;
   font-size: 18px;
   line-height: 29px;
 }
@@ -4241,7 +3945,7 @@ figcaption {
   margin-top: 50px;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #707d8f;
+  border-bottom: 1px solid #fff;
 }
 
 .row-licensing-item {
@@ -4299,22 +4003,6 @@ figcaption {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-}
-
-.ticket-type {
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .box-bg {
@@ -4384,29 +4072,6 @@ figcaption {
 
 .form-section {
   position: relative;
-}
-
-.header-section {
-  padding-top: 8%;
-  padding-bottom: 6%;
-  background-image: url("http://uploads.webflow.com/5727cdb3639cfa231e7b21d8/572b9b17a930e61c791255bd_Audience.png");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.header-section.on-post {
-  position: relative;
-  padding-top: 15%;
-  padding-bottom: 15%;
-  background-position: 50% 50%;
-}
-
-.header-section.no-background-image {
-  padding-top: 6%;
-  padding-bottom: 5%;
-  background-color: #292d5a;
-  background-image: none;
 }
 
 .blog-column {
@@ -4498,8 +4163,8 @@ figcaption {
   -webkit-transition: border 300ms ease;
   transition: border 300ms ease;
   font-family: Montserrat, sans-serif;
-  color: #707d8f;
-  font-size: 9.5px;
+  color: #000;
+  font-size: 12px;
   line-height: 10px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -4672,20 +4337,6 @@ figcaption {
   color: #1488cc;
   font-weight: 400;
   text-align: center;
-}
-
-.author-profile-picture {
-  position: relative;
-  top: 3px;
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  float: left;
-  border-radius: 50%;
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .post-details-box {
@@ -5231,6 +4882,17 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
 }
 
 @media (max-width: 991px) {
+  .hero-section-1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    background-image: none;
+    background-position: right;
+    background-size: 739px;
+    background-repeat: no-repeat;
+  }
   .nav-link {
     width: 100%;
   }
@@ -5244,7 +4906,37 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   .nav-menu {
     width: 100%;
     background-color: #fff;
+    float:right;
   }
+  .header-text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #545454;
+  }
+  .burger-line-1 {
+    width: 20px;
+    height: 2px;
+    margin-bottom: 3px;
+    background-color: #000;
+  }
+  .burger-line-2 {
+    width: 20px;
+    height: 2px;
+    margin-bottom: 3px;
+    background-color: #000;
+  }
+  .burger-line-3 {
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+  }
+
   .mini-columns-container {
     width: 60%;
   }
@@ -5256,24 +4948,21 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
     padding-top: 35px;
   }
   .menu-button.w--open {
-    background-color: #2d305e;
+    background-color: #fff;
   }
   .burger-line-1 {
-    width: 20px;
     height: 2px;
     margin-bottom: 3px;
-    background-color: #fff;
+    background-color: #000;
   }
   .burger-line-2 {
-    width: 20px;
     height: 2px;
     margin-bottom: 3px;
-    background-color: #fff;
+    background-color: #000;
   }
   .burger-line-3 {
-    width: 20px;
     height: 2px;
-    background-color: #fff;
+    background-color: #000;
   }
   .feature-text {
     width: 100%;
@@ -5343,7 +5032,7 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   }
   .nav-menu {
     overflow: auto;
-    background-color: #2d305e;
+    background-color: #fff;
   }
   .nav-menu.on-fixed-navbar {
     overflow: auto;
@@ -5396,24 +5085,24 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
     text-align: center;
   }
   .menu-button.w--open {
-    background-color: #2d305e;
+    background-color: #fff;
   }
   .burger-line-1 {
     width: 20px;
     height: 2px;
     margin-bottom: 3px;
-    background-color: #fff;
+    background-color: #000;
   }
   .burger-line-2 {
     width: 20px;
     height: 2px;
     margin-bottom: 3px;
-    background-color: #fff;
+    background-color: #000;
   }
   .burger-line-3 {
     width: 20px;
     height: 2px;
-    background-color: #fff;
+    background-color: #000;
   }
   .button {
     font-size: 1.7vw;
@@ -5981,4 +5670,93 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   height: 43px;
   object-fit: contain;
   mix-blend-mode: undefined;
+}
+
+.techlooplogo{
+  width: 436px;
+  height: 236px;
+  object-fit: contain;
+  mix-blend-mode: undefined;
+}
+
+.detail{
+  display: table;
+  width:100;
+  border-spacing:20px;
+}
+
+.ellipse1 {
+  height: 20px;
+  width: 40px;
+  font-size: 20px;
+  color:white;
+  background-color: #555;
+  border-radius: 50%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.display-text{
+  height: 40px;
+  width: 250px;
+  font-family: Montserrat;
+  font-size: 22.5px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.6px;
+  color:#000;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.regBtn {
+  width: 232px;
+  height: 42px;
+  mix-blend-mode: undefined;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(150deg, #4b7cc6, #1a3c6e);
+  background-image: linear-gradient(150deg, #4b7cc6, #1a3c6e);
+  align-content: center;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color:#fff;
+  /*background-image: linear-gradient(#1b1b1b, #1b1b1b), linear-gradient(150deg, #4b7cc6, #1a3c6e);*/
+}
+
+.regBtn:hover {
+  border-bottom-style: none;
+  opacity: 0.95;
+}
+
+.headings-text{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.6px;
+  color:#000;
+}
+
+.aboutus-text{
+  height: 40px;
+  width: 250px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.09;
+  letter-spacing: 0.6px;
+  color:#000;
+  text-align:center;
+  display: table-cell;
+  vertical-align: middle;
 }
