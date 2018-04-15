@@ -5701,3 +5701,31 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   padding: 1.5em;
   background-color: none;
 }
+.highlights-container{
+  background : linear-gradient(150deg, #4b7cc6, #1a3c6e);
+}
+.techloop-detail-container{
+    background-color : #f5f5f5;
+}
+.text-techloop{
+  text-align : left;
+  color : #000;
+  padding : 5% 15% 5% 15%;
+}
+.text-techloop-bold{
+  text-align : center;
+  color : #000;
+  font-weight: 900;
+}
+.techloop-domain{
+    text-align : center;
+    padding : 5%;
+    color : #000;
+}
+.light-headings-text{
+  color : #fff;
+  text-align : center;
+}
+.fab{
+    height : 100px;
+}
