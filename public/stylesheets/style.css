@@ -5634,11 +5634,12 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   line-height: 1.09;
   letter-spacing: 0.6px;
   color:#fff;
-  text-align:left;
+  text-align:justify;
 }
 
 .cols {
   clear: both;
+  padding:0 45px;
 }
 .cols:after {
   visibility: hidden;
@@ -5666,6 +5667,8 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
     -ms-box-orient: vertical;
     -webkit-flex-direction: column;
     flex-direction: column;
+    clear: both;
+    padding:0 0px;
   }
   .cols > div {
     float: none !important;
@@ -5677,30 +5680,16 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
 
 .col_one_third {
   float: left;
-  width: 33.33%;
+  width: 48%;
   padding: 0 1em;
-}
-
-.media_xs_order_two{
-  width:10%;
+  text-align: justify;
 }
 
 .col_one_third:first-of-type {
-  clear: left;
   padding: 0 2.077em 0 0;
 }
 .col_one_third:last-of-type {
-  clear: right;
   padding: 0 0 0 2.077em;
-}
-
-.col_two_thirds:first-of-type {
-  clear: left;
-  padding-left: 0;
-}
-.col_two_thirds:last-of-type {
-  clear: right;
-  padding-right: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -5712,14 +5701,6 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
     order: 0;
   }
 
-  .media_xs_order_two {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    -webkit-order: 1;
-    order: 1;
-  }
-
   .media_xs_order_three {
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
@@ -5727,10 +5708,6 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
     -webkit-order: 2;
     order: 2;
   }
-}
-body {
-  font-size: 1.5em;
-  text-align: center;
 }
 
 .cols > div div {
