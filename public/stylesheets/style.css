@@ -5716,16 +5716,25 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   text-align : center;
   color : #000;
   font-weight: 900;
+    padding : 5% 15% 5% 15%;
 }
 .techloop-domain{
     text-align : center;
     padding : 5%;
     color : #000;
 }
+.domain-headline{
+    padding : 5% 0 0 0;
+}
 .light-headings-text{
   color : #fff;
   text-align : center;
 }
-.fab{
-    height : 100px;
+.text-congress-heading{
+    color : #000;
+    padding : 0 0 0 5%;
+}
+.text-congress{
+    color : #000;
+    padding : 0 0 0 2%;
 }
