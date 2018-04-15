@@ -1874,9 +1874,6 @@ textarea.w-select {
 .w-nav-menu {
   position: relative;
   float:right;
-  width:100%;
-  text-align:right;
-  align-content: right;
 }
 
 .w--nav-menu-open {
@@ -2251,7 +2248,7 @@ figcaption {
 .nav-menu {
   display: inline-block;
   width: 80%;
-  float: right;
+  float: none;
 }
 
 .hero-section-1 {
@@ -2319,7 +2316,7 @@ figcaption {
   background: #ddd;
   padding-top: 7%;
   padding-bottom: 10%;
-  background : linear-gradient(to bottom right, #4b7cc6, #1a3c6e,#1b1b1b, #1b1b1b);
+  background :  linear-gradient(150deg, #4b7cc6, #1a3c6e);
 }
 
 .content-section.midnight-blue {
@@ -4778,7 +4775,10 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   }
   .nav-menu {
     background-color: #fff;
-    float:right;
+    width:100%;
+  }
+  .nav-menu.on-fixed-navbar {
+    overflow: auto;
   }
   .header-text {
     font-family: Montserrat;
@@ -4821,20 +4821,6 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   }
   .menu-button.w--open {
     background-color: #fff;
-  }
-  .burger-line-1 {
-    height: 2px;
-    margin-bottom: 3px;
-    background-color: #000;
-  }
-  .burger-line-2 {
-    height: 2px;
-    margin-bottom: 3px;
-    background-color: #000;
-  }
-  .burger-line-3 {
-    height: 2px;
-    background-color: #000;
   }
   .feature-text {
     width: 100%;
