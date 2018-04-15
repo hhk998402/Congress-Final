@@ -4777,7 +4777,6 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
     text-align: center;
   }
   .nav-menu {
-    width: 100%;
     background-color: #fff;
     float:right;
   }
@@ -5562,16 +5561,8 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   border-spacing:20px;
 }
 
-.ellipse1 {
-  height: 20px;
-  width: 40px;
-  font-size: 20px;
-  color:white;
-  background-color: #555;
-  border-radius: 50%;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
+.icon-background {
+  color: #000;
 }
 
 .display-text{
@@ -5643,7 +5634,86 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   line-height: 1.09;
   letter-spacing: 0.6px;
   color:#fff;
-  text-align:left;
+  text-align:justify;
+}
+
+.cols {
+  clear: both;
+  padding:0 45px;
+}
+.cols:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.cols > div {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 1px;
+}
+@media screen and (max-width: 767px) {
+  .cols {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    clear: both;
+    padding:0 0px;
+  }
+  .cols > div {
+    float: none !important;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.col_one_third {
+  float: left;
+  width: 48%;
+  padding: 0 1em;
+  text-align: justify;
+}
+
+.col_one_third:first-of-type {
+  padding: 0 2.077em 0 0;
+}
+.col_one_third:last-of-type {
+  padding: 0 0 0 2.077em;
+}
+
+@media screen and (max-width: 767px) {
+  .media_xs_order_one {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+  }
+
+  .media_xs_order_three {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+}
+
+.cols > div div {
+  margin-bottom: 2em;
+  padding: 1.5em;
+  background-color: none;
 }
 .highlights-container{
   background : linear-gradient(150deg, #4b7cc6, #1a3c6e);
