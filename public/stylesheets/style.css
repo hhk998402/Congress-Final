@@ -1251,45 +1251,6 @@ blockquote {
   justify-content: center;
 }
 
-.initial-letter {
-  display: inline-block;
-  margin-right: 1%;
-  float: left;
-  color: #1488cc;
-  font-size: 53px;
-  line-height: 57px;
-}
-
-.signature {
-  width: 60%;
-  margin-top: 40px;
-}
-
-.column {
-  float: left;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.column.rigth {
-  position: relative;
-  width: 57%;
-  padding-left: 15px;
-  float: right;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
-}
-
-.grid-container {
-  width: 57%;
-  height: 80%;
-  padding-left: 16px;
-  float: right;
-}
-
 .button {
   display: inline-block;
   width: auto;
@@ -1343,12 +1304,6 @@ blockquote {
   background-color: #272b58;
 }
 
-.play-button:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 .title {
   margin-bottom: 7px;
   font-family: Montserrat, sans-serif;
@@ -1386,98 +1341,6 @@ blockquote {
   text-align: right;
 }
 
-.tabs {
-  margin-bottom: 4%;
-}
-
-.tabs-content {
-  padding-top: 30px;
-  border-top: 2px solid #272b58;
-}
-
-.tab-link {
-  top: 2px;
-  min-width: 180px;
-  padding: 22px 6% 19px;
-  background-color: transparent;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
-  font-family: Raleway, sans-serif;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-}
-
-.tab-link:hover {
-  color: #fff;
-}
-
-.tab-link.w--current {
-  z-index: 10;
-  padding-top: 20px;
-  padding-right: 5%;
-  padding-left: 5%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #272b58 #272b58 #2c305e;
-  background-color: #2c305e;
-  color: #fff;
-}
-
-.tabs-menu {
-  padding-left: 50px;
-}
-
-.expand-box {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  padding: 21px 40px 15px 60px;
-  background-color: #2a2e5a;
-}
-
-.time-text {
-  position: relative;
-  top: -4px;
-  display: inline-block;
-  margin-right: 5px;
-  font-family: Montserrat, sans-serif;
-  color: #fff;
-  font-size: 10px;
-  line-height: 18px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.activity-description {
-  width: 99%;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.expand-box-container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 20px;
-  padding: 20px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  background-color: #2a2e5a;
-}
-
 .button-special-box {
   text-align: center;
 }
@@ -1487,25 +1350,6 @@ blockquote {
   margin-top: 4px;
   margin-right: 9px;
   float: left;
-}
-
-.sup {
-  position: relative;
-  left: -3px;
-  top: -20px;
-  display: inline-block;
-  font-family: Montserrat, sans-serif;
-  color: #fff;
-  font-size: 32px;
-  font-weight: 400;
-}
-
-.content-box {
-  margin-top: 50px;
-}
-
-.content-box.no-top-border {
-  margin-top: 0px;
 }
 
 .venue-details {
