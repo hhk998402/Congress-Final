@@ -5708,7 +5708,7 @@ html.w-mod-js *[data-ix="display-none-on-load-see-more-icon"] {
   text-align : center;
   color : #000;
   font-weight: 900;
-  padding : 0 0px;
+  padding : 0 5% 0 5%;
 }
 .techloop-domain{
     text-align : center;
