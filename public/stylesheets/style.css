@@ -2842,3 +2842,19 @@ a{
     max-width:100%;
   }
 }
+/*Style for contact us*/
+.contact-us-container{
+  background-color : #f5f5f5;
+  padding-bottom : 5%;
+}
+.heading-contact-us{
+  color : #000;
+}
+.contacts-container{
+  padding : 5%;
+}
+@media (min-width : 700px){
+  .contact-1{
+    border-right: 1px solid #ccc;
+  }
+}
